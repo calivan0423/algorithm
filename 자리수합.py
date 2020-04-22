@@ -1,9 +1,9 @@
 import sys
-sys.stdin= open("자릿수합.txt","rt")
+#sys.stdin= open("자릿수합.txt","rt")
 
 n=int(input())
 a=list(map(int,input().split()))
-'''
+
 def digit_sum(x):
     sum=0
     while x>0:
@@ -21,8 +21,8 @@ for i in range(0,n):
         result_index=i
 
 print(a[result_index])
-'''
 
+'''
 def digit_sum(x):
     sum=0
     for i in str(x):
@@ -36,3 +36,4 @@ for x in a:
         result=tmp
         res=x
 print(res)
+'''

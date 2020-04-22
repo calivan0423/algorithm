@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("카드역배치.txt","rt")
+#sys.stdin=open("카드역배치.txt","rt")
 
 a=list(range(21))
 

@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("주사위게임.txt", "rt")
+#sys.stdin = open("주사위게임.txt", "rt")
 
 n = int(input())
 res=0

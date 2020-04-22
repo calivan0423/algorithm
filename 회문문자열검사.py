@@ -1,8 +1,8 @@
 import sys
-sys.stdin=open("회문문자열검사.txt","rt")
+#sys.stdin=open("회문문자열검사.txt","rt")
 
 n=int(input())
-'''
+
 for i in range(n):
     st=str(input())
     st=st.lower()
@@ -22,3 +22,4 @@ for i in range(n):
         print("#%d YES"%(i+1))
     else:
         print("#%d NO" % (i + 1))
+'''

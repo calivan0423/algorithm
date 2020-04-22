@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("정다면체.txt","rt")
+#sys.stdin=open("정다면체.txt","rt")
 
 n, m = map(int,input().split())
 

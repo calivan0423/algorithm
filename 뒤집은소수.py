@@ -1,5 +1,5 @@
 import  sys
-sys.stdin=open("뒤집은소수.txt","rt")
+#sys.stdin=open("뒤집은소수.txt","rt")
 
 n=int(input())
 a=list(map(int,input().split()))

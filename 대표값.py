@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open("대표값.txt","rt")
+#Ssys.stdin=open("대표값.txt","rt")
 
 
 n= int(input())

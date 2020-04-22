@@ -1,5 +1,5 @@
 import sys
-sys.stdin= open("k 번째 큰 수.txt","rt")
+#sys.stdin= open("k 번째 큰 수.txt","rt")
 
 n,k= map(int,input().split())
 
@@ -13,6 +13,6 @@ for i in range(n):
 
 res= list(res)
 res.sort(reverse=True)
-print(res[k])
+print(res[k-1])
 
 

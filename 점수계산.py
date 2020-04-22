@@ -1,9 +1,9 @@
 import sys
-sys.stdin=open("점수계산.txt","rt")
+#sys.stdin=open("점수계산.txt","rt")
 
 n=int(input())
 a=list(map(int,input().split()))
-'''
+
 flag = True
 pre_value = 0
 
@@ -38,3 +38,4 @@ for x in a:
         cnt=0
 
 print(sum)
+'''
