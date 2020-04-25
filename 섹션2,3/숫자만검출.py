@@ -1,23 +1,25 @@
 import sys
-sys.stdin=open("숫자만검출.txt","rt")
+#sys.stdin=open("숫자만검출.txt","rt")
 
-'''
-st=str(input())
+
+st=input()
 size=int(len(st))
 result = ''
 
 for i in range (size):
-    if 48<=ord(st[i])<=75:
+
+    if 48<=ord(st[i]) and ord(st[i])<=57:
         result+=st[i]
         
 result=int(result)
+print(result)
 value =0
 
 for i in range(1,result+1):
     if result%i==0:
         value+=1
 
-print(result)
+
 print(value)
 '''
 
@@ -35,3 +37,4 @@ for i in range(1,res+1):
     if res%i==0:
         cnt+=1
 print(cnt)
+'''
