@@ -1,5 +1,5 @@
 import sys
-#sys.stdin=open("수의합.txt","rt")
+sys.stdin=open("수의합.txt","rt")
 
 
 n, m= map(int,input().split())
