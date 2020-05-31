@@ -1,14 +1,10 @@
-global a
-a = 1
+import sys
+sys.stdin = open("test.txt","rt")
+
+n = int(input())
+
+for _ in range(n):
+    count = 0
+    a = list(map(int,input().split()))
 
 
-def test():
-    global a
-    a = 3
-    b = 2
-
-    return a + b
-
-
-print(test())
-print(a)
