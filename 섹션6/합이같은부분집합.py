@@ -1,3 +1,5 @@
+'''
+
 import sys
 sys.stdin = open("합이같은부분집합.txt","rt")
 
@@ -20,3 +22,7 @@ if __name__=="__main__":
     a = list(map(int,input().split()))
     total = sum(a)
     print("NO")
+
+
+'''
+
